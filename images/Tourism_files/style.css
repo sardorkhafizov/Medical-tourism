@@ -1,0 +1,86 @@
+/*.back{
+  display: flex;
+  flex: 1;
+  background-image: url(images/GettyImages-184601507.jpg);
+  height: 900px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  justify-content: end;
+  align-items: center;
+}
+.bio{
+  font-family: monospace;
+  width: 600px;
+  }*/
+
+body{
+  margin: 0;
+  padding-bottom: 2000px;
+  padding-top: 60px;
+}
+
+.main{
+  display: grid;
+}
+.page1{
+display: flex;
+flex-direction: row;
+}
+.preview{
+flex: 2;
+}
+.first-image{
+width: 100%;
+}
+.info{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #415531 0%, #2B7DA0 100%);
+  height: 450px;
+}
+.blank-1,.blank-2{
+  flex: 0.1;
+}
+.preview-2{
+  flex: 0.5;
+  padding-top: 100px;
+  display: grid;
+
+}
+.second-image{
+  width: 100%;
+}
+.booking{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+  align-items: center;
+}
+.booking-button{
+  color: green;
+  background-color: white;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+}
+.pzdc{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}

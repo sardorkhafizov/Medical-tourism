@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5501/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Tourism</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./Tourism_files/css2" rel="stylesheet">
+<link rel="stylesheet" href="./Tourism_files/style.css">
+<link rel="stylesheet" href="./Tourism_files/header.css">
+</head>
+<body>
+  <header class="header">
+    <div class="left-section">
+      <div class="left"><img src="./Tourism_files/Rectangle 3.png"></div>
+      <div class="right"><img src="./Tourism_files/Rectangle 3.png"></div>
+      <div class="name">
+        Health Guide
+      </div>
+    </div>
+
+    <div class="right-section">
+      <div class="top-bar">Home</div>
+      <div class="top-bar">About</div>
+      <div class="top-bar">Contact us</div>
+      <div class="top-bar">Links</div>
+      <div class="top-bar">Blog</div>
+      <button class="book">Book Now</button>
+    </div>
+  </header>
+
+  <div class="main">
+      <div class="page1">
+          <div class="preview"><img class="first-image" src="./Tourism_files/GettyImages-184601507.jpg"></div>
+          <div class="info">
+            <div>Медицинский Туризм В Узбекистане</div>
+            <div>Health Guide</div>
+            <div>Вы планируете отпуск, чтобы хорошо провести свободное время и улучшить ваше Здоровье. Ищете место, где можно исследовать, поесть и насладиться отдыхом а так же Привести В Порядок Здоровье, 
+              со своими близкими или вы одинокий путешественник, который часто путешествует в поисках замечательных впечатлений.</div>
+          </div>
+      </div>
+    <div class="page2">
+      <div class="blank-1"></div>
+      <div class="preview-2">
+        <div class="pzdc"><img class="second-image" src="./Tourism_files/b_5e7a593f33681.jpg">
+          <div class="booking">
+            Позвольте вашему любопытству сделать заказ
+            <button class="booking-button">Бронировать</button>
+          </div></div>
+      </div>
+      <div class="blank-2"></div>
+    </div>
+    <div class="page3">
+
+    </div>
+  </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

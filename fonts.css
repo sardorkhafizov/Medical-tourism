@@ -1,0 +1,116 @@
+.h1{
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #091F3F;
+text-align: center;
+}
+.main{
+  font-family: monospace;
+}
+.slogan{
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: -0.025em;
+color: #898989;
+}
+.infobio{
+  padding-top: 50px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+}
+.in{
+  font-family: monospace;
+  font-weight: 500;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.abc{
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+.ab{
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.vp{   
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+}
+.h2{
+font-family: monospace;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+color: #091F3F;
+text-align: start;
+}
+.comm{
+  font-family: monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: #161616;
+text-align: start;
+width: 800px;
+}
+
+.almost{
+  padding-top: 50px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+}
+.page8{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: -0.025em;
+  color: #000000;
+}
+.google{
+  color: #0066da;
+  font-weight: 600;
+}
+.booking{
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+}
+.booking-button{
+  font-family: monospace;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+}
+.abbtn1, .abbtn2{
+  font-family: monospace;
+  font-size: 15px;
+}
+.vpn{
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 500;
+}
